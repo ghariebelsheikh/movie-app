@@ -1,0 +1,79 @@
+.movie {
+  &__card {
+    width: 300px;
+    margin: 1rem;
+    position: relative;
+    cursor: pointer;
+
+    &__img {
+      height: 430px;
+      background-color: beige;
+      overflow-y: hidden;
+      position: relative;
+      background-color: black;
+      border-top-right-radius: 15px;
+      border-top-left-radius: 15px;
+    }
+
+    &__footer {
+      position: relative;
+      padding: 1rem;
+      background-color: #f9f9f9;
+      color: #242423;
+      border-bottom-right-radius: 15px;
+      border-bottom-left-radius: 15px;
+
+      &__name {
+        font-weight: bold;
+        font-size: 1rem;
+      }
+
+      &__rating {
+        position: absolute;
+        top: -29px;
+        left: 15px;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+        line-height: 45px;
+        width: 50px;
+        height: 50px;
+        background-color: #343533;
+        color: #fff;
+        border-radius: 50%;
+        border: 2px solid #21d07a;
+      }
+
+      &__favorite {
+        font-size: 16px;
+        letter-spacing: 2px;
+        font-weight: 400 !important;
+        background-color: #ec0909;
+        color: #fff;
+        padding: 10px 20px;
+        margin: auto;
+        text-align: center;
+        display: inline-block !important;
+        text-decoration: none;
+        border: 0px;
+        width: max-content;
+        cursor: pointer;
+      }
+      &__unfavorite {
+        font-size: 16px;
+        letter-spacing: 2px;
+        font-weight: 400 !important;
+        background-color: #01b4e4;
+        color: #fff;
+        padding: 10px 20px;
+        margin: auto;
+        text-align: center;
+        display: inline-block !important;
+        text-decoration: none;
+        border: 0px;
+        width: max-content;
+        cursor: pointer;
+      }
+    }
+  }
+}
